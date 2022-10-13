@@ -1,5 +1,5 @@
 // ****************************************************TASK 1 - OBJECTS****************************************************
-/*const personA = {
+ const personA = {
     name: "Micah",
     age: 4,
     location: "Sutton",
@@ -51,7 +51,7 @@ console.log(biograghy(personA));
 
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
-
+/*
  const x = 6;
  const y = 4;
 
@@ -101,7 +101,7 @@ const minDrivingAge = 17;
 const drivingAge = (myAge > minDrivingAge);
 
 console.log("Am I old enough to drive," + " " + drivingAge);
-*/
+
 
 
 
@@ -133,3 +133,17 @@ divide:division,
 };
 
 console.log(calculator.multiply(5, 8))
+*/
+
+
+function whoIsOlder (personA, personB) {
+  const isMoreThan = personA.age > personB.age
+  const ageDifference = personA.age - personB.age
+
+  const aolder  = `${personA.name} is ${ageDifference} years older than ${personA.name}`
+  const bolder  = `${personB.name} is ${ageDifference} years older than ${personB.name}`
+
+  return aolder;
+};
+
+console.log(whoIsOlder(Micah, Naishe))
