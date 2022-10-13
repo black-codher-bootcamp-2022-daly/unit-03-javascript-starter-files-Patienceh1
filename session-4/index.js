@@ -1,5 +1,5 @@
 // ****************************************************TASK 1 - OBJECTS****************************************************
-const personA = {
+/*const personA = {
     name: "Micah",
     age: 4,
     location: "Sutton",
@@ -72,6 +72,7 @@ console.log(biograghy(personA));
  console.log("multiplication: x * x " + multiplication);
 
 
+
  const multiplication2 = x * y * x;
 console.log("here I multiply" + " " + multiplication2);
 
@@ -83,9 +84,7 @@ console.log(" Add it up" + " " + addition2);
 
 const division2 = x / y * x;
 console.log("divide it" + " " + division2);
-
-
-
+*/
 
 
 
@@ -96,11 +95,12 @@ console.log("divide it" + " " + division2);
 
 // ****************************************************TASK 3****************************************************
 
+const myAge = 26;
+const minDrivingAge = 17;
 
+const drivingAge = (myAge > minDrivingAge);
 
-
-
-
+console.log("Am I old enough to drive," + " " + drivingAge);
 
 
 
