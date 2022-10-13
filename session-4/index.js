@@ -84,7 +84,7 @@ console.log(" Add it up" + " " + addition2);
 
 const division2 = x / y * x;
 console.log("divide it" + " " + division2);
-*/
+
 
 
 
@@ -101,12 +101,35 @@ const minDrivingAge = 17;
 const drivingAge = (myAge > minDrivingAge);
 
 console.log("Am I old enough to drive," + " " + drivingAge);
+*/
 
 
 
 
+// HOME WORK TASK 1 
 
 
 
+function addition (x, y) {
+    return x + y;
+}
+function subtraction (x, y) {
+    return x - y;
+}
 
+function multiplication (x, y) {
+    return x * y;
+}
 
+function division (x, y) {
+    return x / y;
+}
+
+const calculator = {
+add:addition,
+subtract:subtraction,
+multiply:multiplication,
+divide:division,
+};
+
+console.log(calculator.multiply(5, 8))
