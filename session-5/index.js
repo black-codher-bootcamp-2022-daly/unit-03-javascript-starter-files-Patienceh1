@@ -18,4 +18,4 @@ function getGrade (total) {
     }
 }
 
-getGrade(20)
+getGrade(75)
