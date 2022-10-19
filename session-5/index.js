@@ -11,9 +11,13 @@ function getGrade (total) {
         console.log(`D`)
     } else if (total > 40 && total <= 50) {
         console.log(`E`)
-    } else if (total > 30 && total <=40) {
+      else-if
+    }  else if (total > 30 && total <= 40) {
+        console.log(`F`)
+    } else (total <30); {
         console.log(`Fail`)
     }
 }
 
-getGrade(75)
+
+getGrade(21)
