@@ -12,8 +12,6 @@ function getGrade (total) {
     } else if (total > 40 && total <= 50) {
         console.log(`E`)
     } else if (total > 30 && total <=40) {
-        console.log(`F`)
-    } else  {
         console.log(`Fail`)
     }
 }
