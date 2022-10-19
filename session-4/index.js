@@ -137,13 +137,10 @@ console.log(calculator.multiply(5, 8))
 
 
 function whoIsOlder (personA, personB) {
-  const isMoreThan = personA.age > personB.age
+  
   const ageDifference = personA.age - personB.age
 
-  const aolder  = `${personA.name} is ${ageDifference} years older than ${personA.name}`
-  const bolder  = `${personB.name} is ${ageDifference} years older than ${personB.name}`
-
-  return aolder;
+return `${personA.name} is ${ageDifference} years older than ${personB.name}` 
 };
 
-console.log(whoIsOlder(Micah, Naishe))
+console.log(whoIsOlder(personA, personB))
